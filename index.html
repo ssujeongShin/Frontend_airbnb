@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb, 여행은 살아보는 거야</title>
+    <!-- 폰트어썸 -->
+    <!-- 버전 4.7 -->
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- 버전 5.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <!-- metertial cdn -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"  rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon/airbnb_logo.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <!-- 페이지css -->
+    <link rel="stylesheet" href="./css/airbnb.css">
+    <!-- 제이쿼리 코어파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <!-- 박스 슬라이더 CSS  -->
+    <script src="./js/jquery.bxslider.js"></script>
+    
+</head>
+<body>
+    <div id="wrap">
+        <!-- 1. Header -->
+        <header class="header cf container">
+            <!-- Logo -->
+            <h1 class="logo">
+                <a href="index.html">
+                    <picture>
+                        <source srcset="./images/airbnb_img/small_airbnb.png" media="(max-width: 767px">
+                        <source srcset="./images/airbnb_img/airbnb_logo.png" media="(min-width: 768px)">
+                        <img src="./images/airbnb_img/small_airbnb.png" alt="모바일로고">
+                    </picture>
+                </a>
+            </h1>
+            <!-- /Logo -->
+            <!-- GNB -->
+            <nav>
+                <ul class="gnb">
+                    <li><a href="#">What's Airbnb</a></li>
+                    <li><a href="#">Where</a></li>
+                    <li><a href="#">When</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Join</a></li>
+                </ul>
+            </nav>
+            <!-- /GNB -->
+            <!-- Hamberger Toggle -->
+            <span class="menu_toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <!-- /Hamberger Toggle -->
+        </header>
+        <!-- /1. Header -->
+
+        <!-- 2.Slider -->
+        <article class="slider m16">
+            <div id="gallery_wrap">
+                <!-- BxSlider 이미지 -->
+                <ul class="slide_gallery">
+                    <li><img src="./images/airbnb_img/airbnb_slide02.png" alt="슬라이드01"></li>
+                    <li><img src="./images/airbnb_img/airbnb_slide03.png" alt="슬라이드02"></li>
+                    <li><img src="./images/airbnb_img/airbnb_slide04.png" alt="슬라이드03"></li>
+                    <li><img src="./images/airbnb_img/airbnb_slide05.png" alt="슬라이드03"></li>
+                </ul>
+            </div>
+        </article>
+        <!-- 2-2. 슬라이드 제이쿼리 플러그인 작업 -->
+        <!-- /2.Slider -->
+
+        <!-- 3. Contents -->
+        <main role="main" class="m16">
+            <section class="content container">
+                <!-- 3-1. Display -->
+                <section class="display_section">
+                    <div class="cf">
+                        <h2 class="sec_title">About us</h2>
+                        <p class="desc">
+                            Airbnb was born in 2007 when two Hosts welcomed
+                            three guests to their San Francisco home
+                            and has since grown to over 4 million Hosts who have welcomed
+                            <!-- 1.4 billion guest arrivals in almost every country across the globe -->
+                        </p>
+                    </div>
+                </section>
+                <!-- /3-1. Display -->
+                
+                <!-- 3-2. Promotion -->
+                <section class="promotion_section m16">
+                    <h2>
+                        <ul class="promotion_list cf">
+                            <li>
+                                <a href="#">
+                                    <img src="./images/airbnb_img/promotion_icon01.png" alt="집 아이콘">
+                                    <h3>RESERVATION</h3>
+                                    <p>
+                                        Airbnb connects you with Superhosts 
+                                        who have experience in homes.
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/airbnb_img/promotion_icon02.png" alt="실시간 아이콘">
+                                    <h3>TRENDING</h3>
+                                    <p>
+                                        New hosts are connected to specially 
+                                        trained customer support agents
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/airbnb_img/promotion_icon03.png" alt="관광지 아이콘">
+                                    <h3>PLACE</h3>
+                                    <p>
+                                        You can choose to welcome guests 
+                                        who have completed at least 3 stays on Airbnb
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/airbnb_img/promotion_icon04.png" alt="보호 아이콘">
+                                    <h3>AIR COVER</h3>
+                                    <p>
+                                        One-on-one support Superhosts
+                                        Option to welcome experienced guests on first
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </h2>
+                </section>
+            </section>
+        </main>
+            <!-- /3-2. Promotion -->
+            
+            <hr class="divider">
+            
+            <!-- 3-3. Work -->
+            <section class="work_section m16">
+                <div>
+                    <h2 class="sec_title container">ROOMS</h2>
+                    <ul class="work_list cf">
+                        <li>
+                            <a>
+                                <div>
+                                    <h3>VALENCIA, 스페인</h3>
+                                    <span>호스트 : Sagrario</span>
+                                    <p>￦66,933&nbsp;/박</p>
+                                </div>
+                                <img src="./images/airbnb_img/room01.png" alt="포트폴리오1">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div>
+                                    <h3>Lyon, 프랑스</h3>
+                                    <span>호스트: Edouard님</span>
+                                    <p>￦129,208&nbsp;/박</p>
+                                </div>
+                                <img src="./images/airbnb_img/room02.png" alt="포트폴리오3">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div>
+                                    <h3>Milano, 이탈리아</h3>
+                                    <span>호스트 : Valentina님</span>
+                                    <p>￦138,053&nbsp;/박</p>
+                                </div>
+                                <img src="./images/airbnb_img/room03.png" alt="포트폴리오2">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div>
+                                    <h3>London, 영국</h3>
+                                    <span>호스트 : Amelia님</span>
+                                    <p>￦93,388&nbsp;/박</p>
+                                </div>
+                                <img src="./images/airbnb_img/room04.png" alt="포트폴리오4">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div>
+                                    <h3>Lindfield, 영국</h3>
+                                    <span>호스트: Michelle님</span>
+                                    <p>￦213,208&nbsp;/박</p>
+                                </div>
+                                <img src="./images/airbnb_img/room05.png" alt="포트폴리오5">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div>
+                                    <h3>Bearsden, 영국</h3>
+                                    <span>호스트: Rhona님</span>
+                                    <p>￦121,404&nbsp;/박</p>
+                                </div>
+                                <img src="./images/airbnb_img/room06.png" alt="포트폴리오6">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div>
+                                    <h3>Palermo, 이탈리아</h3>
+                                    <span>호스트: Gandolfo Gabriele</span>
+                                    <p>￦111,725&nbsp;/박</p>
+                                </div>
+                                <img src="./images/airbnb_img/room07.png" alt="포트폴리오7">
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <div>
+                                    <h3>Wirobrajan, 인도네시아</h3>
+                                    <span>호스트: Sri님</span>
+                                    <p>￦29,413&nbsp;/박</p>
+                                </div>
+                                <img src="./images/airbnb_img/room08.png" alt="포트폴리오8">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- /3-3. Work -->
+            
+            <hr class="divider">
+
+            <!-- 3-4. Blog -->
+            <section class="blog_section container m16">
+                <div class="cf">
+                    <h2 class="sec_title">TRENDING</h2>
+                    <ul class="blog_list cf">
+                        <li>
+                            <p><span>1st</span></p>
+                            <hr class="trending_divider color_divider">
+                            <a href="#">
+                                <img src="./images/airbnb_img/trending01.png" alt="인기01">
+                            </a>
+                            <p class="rank"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;4.98</p>
+                            <a href="#">
+                                <h3>
+                                    New 6400 Sqft Beach Mansion, Ocean Views, Water Level 25
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <p>2nd</p>
+                            <hr class="trending_divider">
+                            <a href="#">
+                                <img src="./images/airbnb_img/trending02.png" alt="인기02">
+                            </a>
+                            <p class="rank"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;4.79</p>
+                            <a href="#">
+                                <h3>
+                                    Beach luxury, private waterfalls, swimming pools and more!
+                                </h3>
+                            </a>
+                        </li>
+                        <li>
+                            <p>3nd</p>
+                            <hr class="trending_divider">
+                            <a href="#">
+                                <img src="./images/airbnb_img/trending03.png" alt="인기03">
+                            </a>
+                            <p class="rank"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;4.5</p>
+                            <a href="#">
+                                <h3>
+                                    Premium Mansion 7 BR - Seafront Mountain Wonderland
+                                </h3>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- /3-4. Blog -->
+            
+            <!-- 3-5. Contact -->
+            <section class="contact_section container m16">
+                <div class="cf">
+                    <h2 class="sec_title">Reservation</h2>
+                    <form action="#" class="form_box">
+                        <fieldset class="cf">
+                            <legend class="blind">CONTACT&nbsp;US</legend>
+                            <!-- Input Form -->
+                            <div class="form">
+                                <label for="name" class="blind">Name</label>
+                                <input type="text" id="name" placeholder="WHERE">
+                                <label for="phone" class="blind">Phone</label>
+                                <input tel="text" id="phone" placeholder="WHEN">
+                                <label for="email" class="blind">E-mail</label>
+                                <input type="email" id="email" placeholder="TRAVELER">
+                            </div>
+                            <!-- /Input Form -->
+                            <!-- Textarea Form -->
+                            <div class="txta">
+                                <label for="message" class="blind">Message</label>
+                                <textarea id="message" placeholder="Message"></textarea>
+                            </div>
+                        </fieldset>
+                        <!-- /Textarea Form -->
+                        <!-- Button -->
+                        <div class="send_btn">
+                            <button>SUBMIT</button>
+                        </div>
+                        <!-- /Button -->
+                    </form>
+                </div>
+            </section>
+            <!-- /3-5. Contact -->
+        </section>
+        <!-- /3. Contents -->
+
+        <!-- 4. Footer -->
+        <footer class="footer">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6324.467391284239!2d126.97592102770498!3d37.573114372616864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca37454f683b1%3A0xfa19c5217c6a0bc0!2z6rSR7ZmU66y4!5e0!3m2!1sko!2skr!4v1676943341084!5m2!1sko!2skr" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <p>
+                &copy;2023 Airbnb, Inc.
+            </p>
+        </footer>
+        <!-- /4. Footer -->
+    </div>
+
+<!-- Script -->
+<script src="./js/airbnb.js"></script>
+</body>
+</html>
